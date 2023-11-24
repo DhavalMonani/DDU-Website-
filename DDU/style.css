@@ -1,0 +1,280 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color and text color for the body */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+    background-color: #ff6600; /* Updated to orange background color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Add a logo image */
+header h1::before {
+    content: '';
+    background-image: url('ddu_logo.png'); /* Replace 'your-logo-image.jpg' with your logo image file */
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    vertical-align: middle;
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+/* Style the footer section */
+footer {
+    background-color: #ff6600;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Apply a container with a max-width for content */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style links */
+a {
+    color: #003366;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styles for specific pages or elements can be added as needed */
+/* Define a CSS rule for the "person" class */
+.person {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Define CSS rules for the "mission" ID */
+#mission {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Define CSS rules for the "key-individuals" ID */
+#key-individuals {
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Define CSS rules for the "establishment" ID */
+#establishment {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, sans-serif;
+    color: #333; /* Text color */
+}
+
+/* Add margins and padding to improve spacing */
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style paragraphs (p) for readability */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5; /* Line spacing for readability */
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Style unordered lists (ul) for improved readability */
+ul {
+    list-style-type: disc; /* Use bullet points for list items */
+    margin-left: 20px; /* Add left margin for better indentation */
+}
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Styles for news section */
+#news {
+    background-color: #FFE4B5; /* Light color for a festive look */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.news-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #FFD700; /* Gold background for news items */
+    border-radius: 5px;
+}
+
+/* Styles for events section */
+#events {
+    background-color: #87CEEB; /* Light blue color for events section */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.event-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #FF69B4; /* Pink background for event items */
+    border-radius: 5px;
+}
+
+.event-item h3 {
+    color: #FFF; /* White text for event titles */
+}
+
+/* Link styles */
+a {
+    color: #007BFF; /* Blue link color */
+    text-decoration: none;
+}
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Styles for contact section */
+#contact-deans {
+    background-color: #F5F5F5; /* Light gray background color for the contact section */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dean {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #FFFFE0; /* Light yellow background for dean sections */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.dean h3 {
+    color: #333; /* Dean names in dark color */
+}
+
+.dean p {
+    color: #555; /* Email text in a slightly darker color */
+}
+/* Style for the logo link */
+.logo-link {
+    text-decoration: none; /* Remove the underline */
+    color: #333; /* Set the color for the logo link */
+}
+/* Form Styles */
+.form-container {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+.edit-marks-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit-marks-button:hover {
+    background-color: #0056b3;
+}
